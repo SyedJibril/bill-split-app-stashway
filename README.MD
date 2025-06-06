@@ -32,3 +32,18 @@ You will be given a React frontend app and Node.js Express backend app in a half
 1. Follow the [setup instructions](./setup.md) to get your development environment ready
 2. Review the [tasks](./tasks.md) to understand what needs to be implemented
 3. Begin working on the tasks while maintaining good communication about your approach
+
+## Interviewee
+Hi, Im Syed Mohamad Jibril from yesterday interview session and i tried to finish the remainin gquestions
+
+## Question 3-4 Implementation
+### Question 3
+- Fixed API endpoint from `/api/bills/shareid` to `/api/bills?shareId`
+- Added interfaces for API responses
+- Added loading state for better user experience
+
+### Question 4
+- Added Participant and ParticipantList components
+- Implemented functionality to add/remove participants
+- Added name and ratio customization
+- Enhanced UI with CSS styling
