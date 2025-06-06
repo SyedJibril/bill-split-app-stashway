@@ -140,3 +140,115 @@ input:focus {
 .copy-button:hover {
   background-color: #218838;
 }
+
+.error-message {
+  color: #e74c3c;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.success-message {
+  color: #2ecc71;
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+/* Participant styles */
+.participants-container {
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.participants-container h3 {
+  text-align: left;
+  margin-bottom: 1rem;
+  color: #555;
+}
+
+.participants-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.participant {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.participant-inputs {
+  display: flex;
+  flex: 1;
+  gap: 0.5rem;
+}
+
+.participant-name {
+  flex: 2;
+}
+
+.participant-ratio {
+  flex: 1;
+}
+
+.remove-participant {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  font-size: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.remove-participant:hover {
+  background-color: #c0392b;
+}
+
+.add-participant-button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 1rem;
+}
+
+.add-participant-button:hover {
+  background-color: #2980b9;
+}
+
+.amounts-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 1rem 0;
+}
+
+.person-amount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 4px;
+}
+
+.person-name {
+  font-weight: 500;
+  color: #333;
+}
+
+.person-amount .amount {
+  font-size: 1.25rem;
+  margin: 0;
+}
