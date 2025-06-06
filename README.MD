@@ -38,7 +38,7 @@ Hi, Im Syed Mohamad Jibril from yesterday interview session and i tried to finis
 
 ## Question 3-4 Implementation
 ### Question 3
-- Fixed API endpoint from `/api/bills/shareid` to `/api/bills?shareId`
+- Fixed API endpoint from `/api/bills/shareid` to `api/bills/${data.shareId}`
 - Added interfaces for API responses
 - Added loading state for better user experience
 
