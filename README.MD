@@ -34,7 +34,7 @@ You will be given a React frontend app and Node.js Express backend app in a half
 3. Begin working on the tasks while maintaining good communication about your approach
 
 ## Interviewee
-Hi, Im Syed Mohamad Jibril from yesterday interview session and i tried to finish the remainin gquestions
+Hi, Im Syed Mohamad Jibril from yesterday interview session and i tried to finish the remaining questions
 
 ## Question 3-4 Implementation
 ### Question 3
